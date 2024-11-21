@@ -6,3 +6,4 @@ for i in range(len(stocks)):
     profit=max(profit,stocks[i]-minimum)
 
 print(profit)
+#When you use min, the minimum variable always holds the lowest price seen so far as you iterate through the stock prices.
