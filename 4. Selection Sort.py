@@ -10,6 +10,8 @@ def selection_sort(arr):
     return arr
             
 
+#for each iteration we select the min index we keep that at right or ith position 
+#like this we select the min index thats the us of the selection sort 
                 
 lst = [64, 25, 27, 22, 11]
 print(selection_sort(lst))
